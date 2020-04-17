@@ -1,4 +1,10 @@
 
-// $(document).ready(function() {
-//   console.log(1)
-// });
+$(document).ready(function() {
+    $('.form__field').focus( function() {
+        $(this).addClass('form__field_focus')
+    }).blur(function () {
+        if ( $(this).val() == "") {
+            $(this).removeClass('form__field_focus')
+        }
+    })
+});
