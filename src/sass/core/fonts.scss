@@ -2,6 +2,14 @@
 /* stylelint-disable */
 
 @font-face {
+  font-family: 'BebasNeue';
+  src: url('../fonts/bebasNeue/BebasNeueBold.woff2') format('woff2'),
+       url('../fonts/bebasNeue/BebasNeueBold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'Rubik';
   src: url('../fonts/Rubik/Rubik-Regular.woff2') format('woff2'),
        url('../fonts/Rubik/Rubik-Regular.woff') format('woff');
@@ -30,13 +38,5 @@
   src: url('../fonts/Rubik/Rubik-Black.woff2') format('woff2'),
        url('../fonts/Rubik/Rubik-Black.woff') format('woff');
   font-weight: 800;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'BebasNeue';
-  src: url('../fonts/bebasNeue/BebasNeueBold.woff2') format('woff2'),
-       url('../fonts/bebasNeue/BebasNeueBold.woff') format('woff');
-  font-weight: 700;
   font-style: normal;
 }
