@@ -172,10 +172,12 @@
     }
 
     .face__item {
-        font-size: 14px;
-
         & + & {
             margin-top: 10px;
+        }
+
+        & span {
+            min-width: 30px;
         }
     }
 }

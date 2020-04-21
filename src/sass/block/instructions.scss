@@ -69,11 +69,12 @@
 
 @media (max-width: 480px) {
     .instructions__title {
+        margin-bottom: 30px;
         font-size: 30px;
+        line-height: 1.1;
     }
 
     .instructions__body {
-        margin-top: -80px;
         margin-right: 0;
         margin-left: 0;
     }
@@ -81,8 +82,8 @@
     .instructions__item {
         width: calc(50% - 15px);
         padding-bottom: 10px;
-        margin-top: 60px;
         margin-right: 0;
+        margin-bottom: 70px;
         margin-left: 0;
 
         &:nth-child(2n) {
