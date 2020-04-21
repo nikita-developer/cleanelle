@@ -1,6 +1,6 @@
 
 .instructions {
-    overflow-x: hidden;
+    // overflow-x: hidden;
 }
 
 .instructions__title {
@@ -25,8 +25,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-right: -60px;
-    margin-left: -60px;
+    margin-right: 0;
+    margin-left: 0;
 }
 
 .instructions__item {
@@ -55,6 +55,9 @@
     }
 
     .instructions__item {
+        margin-right: 41px;
+        margin-left: 41px;
+
         &:last-child {
             margin-right: auto;
         }
@@ -64,6 +67,11 @@
 @media (max-width: 768px) {
     .instructions__title {
         font-size: 40px;
+    }
+
+    .instructions__item {
+        margin-right: 31px;
+        margin-left: 31px;
     }
 }
 

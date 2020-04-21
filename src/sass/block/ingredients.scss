@@ -84,6 +84,7 @@
             font-size: 36px;
             font-weight: 800;
             line-height: 28px;
+            text-transform: uppercase;
         }
 
         & .ingredients__info {
@@ -211,8 +212,14 @@
         &_first {
             padding-top: 65px;
 
+            & .ingredients__media {
+                max-width: 120px;
+            }
+
             & .ingredients__name {
                 margin-bottom: 10px;
+                font-size: 21px;
+                text-transform: none;
             }
         }
     }

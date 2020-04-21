@@ -89,6 +89,14 @@
     }
 }
 
+@media (max-width: 1400px) {
+    .face__product {
+        top: 90px;
+        right: 0;
+        max-width: 300px;
+    }
+}
+
 @media (max-width: 1170px) {
     .face__title {
         font-size: 98px;
@@ -111,6 +119,7 @@
     }
 
     .face__product {
+        top: 0;
         right: 0;
         max-width: 230px;
     }
