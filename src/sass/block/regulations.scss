@@ -172,6 +172,12 @@
     .regulations__item {
         padding: 15px;
         border-radius: 0;
+
+        &_color-3 {
+            & .regulations__description {
+                max-width: none;
+            }
+        }
     }
 
     .regulations__count {
