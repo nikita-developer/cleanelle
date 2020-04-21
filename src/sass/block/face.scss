@@ -62,7 +62,7 @@
     background-color: #fff;
     border-radius: 50%;
     box-shadow: 0 0 0 20px rgba(109, 191, 234, 0.4);
-    animation: pulse 2s infinite;
+    animation: pulse1 2s infinite;
 
     & span {
         font-size: 22px;
@@ -75,7 +75,7 @@
     left: -172px;
 }
 
-@keyframes pulse {
+@keyframes pulse1 {
     0% {
         box-shadow: 0 0 0 20px rgba(109, 191, 234, 0.4);
     }

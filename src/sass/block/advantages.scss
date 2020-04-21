@@ -47,6 +47,7 @@
         content: '';
         background-image: url("../media/advantages/icon.png");
         background-repeat: no-repeat;
+        animation: pulse2 3s infinite;
     }
 }
 
@@ -112,5 +113,23 @@
 
     .advantages__product {
         height: 320px;
+    }
+}
+
+@keyframes pulse2 {
+    0% {
+        transform: scale(1);
+    }
+
+    20% {
+        transform: scale(1.1);
+    }
+
+    30% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1);
     }
 }
